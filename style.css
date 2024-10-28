@@ -1,0 +1,153 @@
+/* Styles de base */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(images.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  img{
+  background-size: 150px;
+  width: 150px;
+  height: 150px;
+  border: 2px solid;
+  color: rgb(185, 58, 79);
+  border-radius: 10px;
+
+  }
+  .cart-container {
+    background-color: #5e5757;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #fffefe;
+    font-family: monospace;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .cart-item:last-child {
+    border-bottom: none;
+  }
+  
+  .item-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .item-name {
+    margin: 0;
+    font-size: 18px;
+    color: #ffffff;
+    font-family: monospace;
+  }
+  
+  .price {
+    font-size: 16px;
+    color: #f3eded;
+    font-family: monospace;
+  }
+  
+  /* Boutons de suppression et de quantité */
+  .delete-btn,
+  .plus-btn,
+  .minus-btn {
+    background-color: #ff0000;
+    border: none;
+    color: #fff;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .delete-btn:hover {
+    background-color: #ff0000;
+  }
+  
+  .quantity-controls {
+    display: flex;
+    align-items: center;
+  }
+  
+  .quantity-input {
+    width: 40px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 0 5px;
+    padding: 5px;
+  }
+  
+  .plus-btn,
+  .minus-btn {
+    background-color: #d4170a;
+    padding: 7px 7px;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  .plus-btn:hover,
+  .minus-btn:hover {
+    background-color: #1f14e6;
+  }
+  
+  /* Bouton coeur */
+  .heart-btn {
+    font-size: 25px;
+    color: #dbd0d0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: color 0.5s ease;
+  }
+  
+  .heart-btn.liked {
+    color: #ff0000;
+  }
+  
+  .heart-btn:hover {
+    color: #ff0000;
+  }
+  
+  /* Affichage du total */
+  .total {
+    text-align: center;
+    padding: 15px 0;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: monospace;
+  }
+  
+  #total-price {
+    font-weight: bold;
+    color: #ffffff;
+  }
+  .button{
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: red;
+   
+  }
+  .submit{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+  }
